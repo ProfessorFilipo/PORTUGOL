@@ -17,7 +17,7 @@ programa {
     se (nro > 1)
     {
       dividiu = falso
-      para (inteiro j = nro - 1; j > 2; j = j - 1)
+      para (inteiro j = nro - 1; j >= 2; j = j - 1)
       {
         se( nro % j == 0)
         {
